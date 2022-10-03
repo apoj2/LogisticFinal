@@ -1,0 +1,57 @@
+<div class="">
+    <div class="mb-3 bg-light rounded mt-5 p-3">
+        <div class="mb-3">
+            <h4>Remitente: </h4>
+            <hr>
+            <label class="form-label">Tipo de remitente: </label>
+            <input type="text" class="form-control" placeholder="TipoRemitente" formControlName="tiporemitente">
+        </div>
+    
+        <div class="mb-3">
+            <div class="row">
+                <div class="col-6">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">
+                            <i class="bi bi-key"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="identificación" formControlName="idremitente">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">
+                            <i class="bi bi-person-circle"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="Nombre" formControlName="nombreremitente">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="mb-3">
+            <div class="row">
+                <div class="col-6">
+                    <input type="text" class="form-control" placeholder="departamento" formControlName="deptoremitente">
+                </div>
+                <div class="col-6">
+                    <input type="text" class="form-control" placeholder="municipio" formControlName="municipioremitente">
+                </div>
+            </div>
+        </div>
+    
+        <div class="mb-3">
+            <div class="input-group mb-3">
+                <span class="input-group-text">
+                    <i class="bi bi-geo-alt"></i>
+                </span>
+                <input type="text" class="form-control" placeholder="Dirección" formControlName="direccionremitente">
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <a class="nav-link" routerLink="/formularioR">
+                <p class="btn btn-success w-25 mx-auto m-xxl-auto d-block" #btnRemitente>Siguiente</p>
+            </a>
+        </div>
+    </div>
+</div>
